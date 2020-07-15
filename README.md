@@ -12,5 +12,5 @@ To install the project dependencies.
 Then start phantomjs, by running:
 ```npm run boo```
 
-After phantomjs is started, we can run tests with:
+After phantomjs is started, run tests with:
 ```npm run test```
