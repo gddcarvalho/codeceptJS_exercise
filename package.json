@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "boo": "node_modules/phantomjs/bin/phantomjs --webdriver=4444",
+    "test": "npx codeceptjs run submit_message_test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
     "puppeteer": "^5.1.0"
   },
   "dependencies": {
+    "phantomjs": "^2.1.7",
+    "puppeteer-firefox": "^0.5.1",
     "selenium-webdriver": "^4.0.0-alpha.7",
     "webdriver": "^6.2.0",
     "webdriverio": "^6.2.0"
