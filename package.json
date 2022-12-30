@@ -20,7 +20,7 @@
   "homepage": "https://github.com/gddcarvalho/codeceptJS_exercise#readme",
   "devDependencies": {
     "@wdio/selenium-standalone-service": "^6.1.14",
-    "codeceptjs": "^2.6.6",
+    "codeceptjs": "^3.0.0",
     "puppeteer": "^5.1.0"
   },
   "dependencies": {
